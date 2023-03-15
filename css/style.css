@@ -1,0 +1,14 @@
+@import url("./nav.css");
+@import url("./mission.css");
+
+*{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+body{
+    background-color: black;
+    opacity: 0.9;
+    height: 200vh;
+}

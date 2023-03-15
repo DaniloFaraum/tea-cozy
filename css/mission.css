@@ -1,0 +1,21 @@
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission__image{
+    height: 700px;
+    width: 1200px;
+    z-index: -1;
+    position: relative;
+    margin: auto;
+}
+
+.title{
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    margin-left: 32.5vh;
+    width: 1200px;
+}
