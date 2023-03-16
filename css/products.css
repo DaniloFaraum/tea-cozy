@@ -1,0 +1,31 @@
+.teaMonth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+.teaMonth_title{
+    text-align: center;
+}
+
+.teaMonth_title h2{
+    font-size: 1.5rem;
+}
+
+.products{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.product{
+    gap: 10px;
+    text-align: center;
+}
+
+.product img{
+    height: 200px;
+    width: 300px;
+}

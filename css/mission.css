@@ -5,17 +5,16 @@
 }
 
 .mission__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 700px;
     width: 1200px;
-    z-index: -1;
-    position: relative;
-    margin: auto;
+    background-image: url('../images/folha-cha.jpg');
 }
 
 .title{
     background-color: black;
-    position: absolute;
     text-align: center;
-    margin-left: 32.5vh;
-    width: 1200px;
+    width: 100%;
 }

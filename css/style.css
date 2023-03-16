@@ -1,5 +1,8 @@
 @import url("./nav.css");
 @import url("./mission.css");
+@import url("./products.css");
+@import url("./location.css");
+@import url("./footer.css");
 
 *{
     font-family: Helvetica, sans-serif;
@@ -7,8 +10,24 @@
     color: seashell;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     opacity: 0.9;
     height: 200vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.copy{
+    margin-left: 20px;
 }
